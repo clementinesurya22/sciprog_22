@@ -1,1 +1,20 @@
 This is Practical 3
+
+In this Practical, there are 2 codes, which are use_printf.c and Trap.c
+
+Description for use_printf.c:
+It is used to display information on the screen. It will print variable r − values as they
+are in memory at the moment when the statement is executed. The basic syntax for printf is
+printf(format,variable1,variable2,...);
+
+The number and type of each variable must match those in the format. Each %# corresponds to a
+variable, with # determining the variable type. Spaces and punctuation appear as written as they
+appear.
+
+
+Description for Trap.c:
+1. I am computing the area under the curve of f (x) where x ∈ [a, b] can be done using the Trapezodial
+rule where x0 = a and xN = b with N − 1 equidistant points between a and b.
+2. The integral is changed into a sum, using the values of the function at certain points. Increasing
+the number of points increases the accuracy.
+3. Find the integral of f (x) = tan(x) from 0 → π/3 and compare with the actual result log(2).
