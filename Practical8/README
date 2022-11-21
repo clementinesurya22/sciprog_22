@@ -1,1 +1,8 @@
 This is Practical 8
+
+In this practical, we concentrate on recursive functions.
+
+We write a function that returns the Greatest Common Divisor (GCD) of a pair of integers passed as
+arguments. The GCD of two or more non-zero integers, is the largest positive integer that divides
+the numbers without a remainder. We use the pseudo code to construct an iterative function and construct 
+a recursive function to do the same, using the formula below the pseudo code.
