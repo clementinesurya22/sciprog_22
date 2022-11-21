@@ -1,1 +1,30 @@
 This is Practical 5
+
+There are 3 codes for Practical 5 and below are the descriptions.
+
+Description for use_scanf.c:
+Programs can accept user input from the screen using, scanf 
+• The first thing to notice is that for scanf the addresses of the variables are passed because we
+want to bring information out of the function.
+• The formatting descriptors are the same as those for print f , e.g. %d.
+• However in this case the descriptors define how much space is reserved for the variable. 
+Thus, we need to use of %lf in the format for long float or double.
+• The scanf function returns the number of values it has read in, this can be tested.
+
+Description for fibonacci.c:
+Create a program that displays the Fibonacci series upto n
+1. Get the user to enter the value of n.
+2. Have a function that that has two arguments. On input the arguments have Fn−1 and Fn−2.
+On exit they have Fn and Fn−1.
+3. Use a loop to find the whole series upto n.
+4. Print out the series.
+
+Description for arctan.c:
+1. Get the user in enter a real positive number delta.
+2. Implement a function artanh1(x) as an approximation to this Maclaurin series. As the series
+is infinite, we will set the function to stop when the element in the series is smaller than a
+given precision, delta.
+3. Implement function artanh2(x) using approximations to natural logarithms. 
+4. Write a main that will calculate arctanh(x) where x ∈ [−0.9, 0.9] and sampled every 0.01,
+using both methods. Store the results for both methods in separate arrays.
+5. Compare the accuracy of each method with each other (to 10 significant figures).
