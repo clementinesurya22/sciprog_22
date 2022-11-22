@@ -4,18 +4,17 @@ LDFLAGS = -lm
 
 all: matmultc
 
-matmultc: main.o matmult.o
-	$(CC) -o $@ $^ $(LDFLAGS)
+matmultc: main.o matmultfunction.o
+        $(CC) -o $@ $^ $(LDFLAGS)
 ##$(CC) -o matmultc main.o matmult.o $(LDFLAGS) 
 
-matmult.o: matmult.c
-	$(CC) -c $(CCFLAGS) $<
+matmultfunction.o: matmultfunction.c
+        $(CC) -c $(CCFLAGS) $<
 ##$(CC) -c $(CCFLAGS) matmult.c
 
 main.o: main.c
-	$(CC) -c $(CCFLAGS) $<
+        $(CC) -c $(CCFLAGS) $<
 ##$(CC) -c $(CCFLAGS) main.c
 
 clean:
-	rm *.o
-
+        rm *.o
