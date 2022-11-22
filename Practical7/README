@@ -1,6 +1,11 @@
 This is Practical 7
 
-In this practical, we use dynamically allocated arrays. The descriptions are as per below:
+In this practical, for finde.c code, we use the Taylor expansion formula to estimate the value of e by setting x = 1. 
+The user inputs the orderof the polynomial needed, dynamically allocate an array of type double which stores the the
+term for each power of x separately and then Compare the estimate against the true value.
+
+
+Next, we also create dynamicAllocation.c where we:
 1. Write a function allocatearray() that takes an integer as an argument and returns a
 pointer to an allocated memory block of that many integers.
 2. Write a function fillwithones() that takes a pointer to an array of integers and fills every
